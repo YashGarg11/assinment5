@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+header{
+    height: 100px;
+    background-image:url("https://img.pikbest.com/backgrounds/20190717/gif-neon-light-background-image_2758299.jpg!w700wp");
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type: none ;
+   
+}
+ul li a
+{
+    padding:0px 20px;
+    text-decoration: none;
+    color: aqua;
+    display: inline-block;
+}
+li a::after {
+content: "";
+display: block;
+height: 4px;
+width:0px;
+background-color: red;
+transition: all.5s;
+}
+li a:hover::after{
+    width: 100%;
+}
+main{
+    border:red;
+    border-width: 10px;
+    border-style: outset;
+    
+}
+.img{
+    border: blue;
+border-width: 10px;
+border-style: outset;
+   
+}
+.img1{
+    border: blue;
+border-width: 10px;
+border-style: outset;
+}
+.contentleft{
+    display:flex;
+    height:calc(100wh-100px);
+    align-items: center;
+    justify-content: center;
+}
+.left1{
+    display: flex;
+    height:calc(100wh-100px);
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-image: url("https://media1.giphy.com/media/WFjcyy95rUXPXo1k43/giphy.gif?cid=ecf05e47z6ivx6iwmz2ut7hyn02oclxlkd27mzmj0rrqqer5&ep=v1_gifs_related&rid=giphy.gif&ct=g") ;background-repeat: no-repeat
+;background-size: 1350px 930px;
+background-color: black;
+}
+main h1{
+    font-size: 70px;
+    color: goldenrod;
+text-transform: uppercase;
+text-align: center;
+
+}
+main h2{
+    font-size: 40px;
+    color: yellow;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+main p{
+    font-size: 22px;
+    font-weight: 400;
+    color:rgb(22, 22, 201);
+    list-style:31.5px;
+    margin: 20px 0px;
+}
+.cta{
+    padding: 15px 30px;
+    background: rgb(112, 204, 216);
+    color: aqua;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+
+
+
+
+
